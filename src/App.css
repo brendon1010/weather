@@ -1,5 +1,25 @@
+body{    /*change the background image*/
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/761/613/75/abstract-sky-sun-clouds-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: monospace;
+}
+
+.inputBox{   /*change text style in input box*/
+  font-weight: bold;
+  font-size: large;
+}
+
 .App {
   text-align: center;
+  margin: 30vh;   /*centre elements on page*/
+}
+
+.myImage{    /*move icon image to top left of page*/
+  position: absolute;
+  margin: -30vh -70vh;
+  width: 130px;
 }
 
 .App-logo {
